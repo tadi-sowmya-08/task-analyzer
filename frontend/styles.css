@@ -1,0 +1,83 @@
+/* 🌈 General Page Styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #eef3fb;
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #004aad;
+}
+
+/* 📝 Input Area */
+textarea {
+    width: 70%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+    background-color: #fff;
+    resize: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔘 Analyze Button */
+button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0073ff;
+}
+
+/* 📦 Results Section */
+h3 {
+    margin-top: 30px;
+    color: #333;
+}
+
+#output {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* 🎨 Task Cards */
+.result-item {
+    border-left: 6px solid;
+    margin-bottom: 12px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+/* 🔴🟠🟢 Color Priority Levels */
+.high {
+    border-color: #ff4d4d;
+    background-color: #ffeaea;
+}
+
+.medium {
+    border-color: #ffa600;
+    background-color: #fff3e0;
+}
+
+.low {
+    border-color: #33cc66;
+    background-color: #e9ffef;
+}
