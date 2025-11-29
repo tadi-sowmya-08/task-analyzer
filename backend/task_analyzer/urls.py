@@ -19,7 +19,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/tasks/', include('tasks.urls')),  # ✅ This line connects your app URLs
+    path('api/tasks/', include('tasks.urls')),  
 ]
 
 
